@@ -1,0 +1,22 @@
+# KFC 優惠券推薦 AI Agent - 依賴套件
+
+# 核心套件
+requests>=2.31.0          # HTTP 請求（LLM API、爬蟲）
+python-dotenv>=1.0.0      # 環境變數管理
+streamlit>=1.28.0         # Web UI 前端
+
+# 爬蟲相關（未來使用）
+beautifulsoup4>=4.12.0    # HTML 解析
+lxml>=5.0.0               # XML/HTML 處理器
+
+# OCR 相關（未來使用，需手動安裝 Tesseract）
+# pytesseract>=0.3.10     # OCR 文字辨識（需先安裝 Tesseract）
+# Pillow>=10.0.0          # 圖片處理
+
+# 測試相關（可選）
+# pytest>=7.4.0           # 單元測試
+# pytest-cov>=4.1.0       # 測試覆蓋率
+
+# 開發相關（可選）
+# black>=23.0.0           # 程式碼格式化
+# flake8>=6.0.0           # 程式碼檢查
