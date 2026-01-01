@@ -148,6 +148,11 @@ kfc_coupon_agent/
 
 ### Running the Application
 
+**Start your Virtual Environment first**
+   ```bash
+   venv\Scripts\activate.bat # in Windows's cmd
+   ```
+
 **Option 1: Command Line Interface (CLI)**
 ```bash
 python main.py
