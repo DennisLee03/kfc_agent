@@ -52,7 +52,7 @@ def run_cli():
             return
 
     # 智能載入優惠券（自動檢查是否需要更新）
-    from scraper import should_update_coupons, scrape_and_parse, load_coupons_from_cache
+    from src.scraper import should_update_coupons, scrape_and_parse, load_coupons_from_cache
 
     print("📥 正在載入優惠券資料...")
     need_update, reason = should_update_coupons()

@@ -80,7 +80,7 @@ This project implements an AI-powered conversational agent that helps users find
 ## Project Structure
 
 ```
-kfc_coupon_agent/
+kfc_agent/
 ├── src/                      # Core modules
 │   ├── __init__.py
 │   ├── agent.py              # FSM-based conversation agent
@@ -96,15 +96,10 @@ kfc_coupon_agent/
 │   ├── raw.json              # Raw API response
 │   └── coupons.json          # Parsed coupon data
 │
-├── docs/                     # Documentation
-│   └── architecture.md       # Detailed system design & diagrams
-│
 ├── main.py                   # CLI entry point
 ├── frontend.py               # Streamlit web UI
-├── run_web.sh                # Web app launcher script
 ├── requirements.txt          # Python dependencies
-├── .env.example              # Environment configuration template
-└── README.md                 # This file
+└── .env                      # Environment configuration
 ```
 
 ---
